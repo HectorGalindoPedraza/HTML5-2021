@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <header>
+        <h1>Listas y tipos de listas</h1>
+        <nav>
+            <ul type="square">
+                <li><a href="#circle">Lista desordenada (circle)</a></li>
+                <li><a href="#disc">Lista desordenada (disc)</a></li>
+                <li><a href="#square">Lista desordenada (square)</a></li>
+                <li><a href="#num">Lista ordenada (numerica)</a></li>
+                <li><a href="#amayus">Lista ordenada (alfabetica mayuscula)</a></li>
+                <li><a href="#omin">Lista ordenada (alfabetica minuscula)</a></li>
+                <li><a href="#roman">Lista ordenada (numerica romana)</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <section>
+        <h2>Listas</h2>
+        <article>
+            <h3>Atributos en las listas</h3>
+
+         <!-- Listas desordenadas -->
+         <p>
+            <ul>
+                <li>Listas desordenadas</li>
+                <p>
+                    <ul>
+                        <li id="circle">Desordenada "circle"</li> 
+                        <p>Nos representa cada item con un circulo sin relleno</p>
+                        <ul type="circle">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                </p>
+                </ul>
+         </p>
+            <ul>
+                <li id="disc">Desordenada "disc"</li>
+                <p>Nos representa cada item con un disco (circulo relleno)</p>
+                <ul type="disc">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </ul>
+          <p>
+                <ul>
+                    <li id="square">Desordenada "square"</li>
+                    <p>Nos representa cada item con un cuadrado</p>
+                    <ul type="square">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </ul>
+          </p>
+<hr>
+            
+
+                <!--Listas ordenadas -->
+
+            <ul>
+                <li>Listas ordenadas</li>
+              <p>
+                    <ul>
+                        <li id="num">Orden numerico</li>
+                        <p>Nos representa cada item con numeros</p>
+                        <ol type="1" start="10">
+                            <li>Item 1 </li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                    </ul>
+              </p>
+                <p>
+                    <ul>
+                        <li id="amayus">Orden alfabetico (MAYUSCULA)</li>
+                        <p>Nos representa cada item con letras en mayuscula</p>
+                        <ol type="A" start="1">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                    </ul>
+                </p>
+                <p>
+                    <ul>
+                        <li id="omin">Orden alfabetico</li>
+                        <p>Nos representa cada item de la con letras en minuscula</p>
+                        <ol type="a">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                    </ul>
+                </p>
+               <p>
+                    <ul>
+                        <li id="roman">Orden numerico romano</li>
+                        <p>Nos representa cada item con numeros romanos (pueden ser en minuscula o minuscula</p>
+                        <ol type="I" start="1">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                    </ul>
+               </p>
+            </ul>
+        </article>
+    </section>
+</body>
+</html>
