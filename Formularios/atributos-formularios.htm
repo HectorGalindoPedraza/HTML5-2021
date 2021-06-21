@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos de los Formularios</title>
+</head>
+<body>
+    <!-- Placeholder -> Da una pista de lo que el usuario tienen que introducir 
+        Required -> Hace que un campo sea obligatorio. 
+        Readonly -> Hace que un campo sea de solo lectura.
+        min - max -> Establece el minimo y maximo de un campo numerico.
+        maxlenght - minlenght -> Establece el minimo y maximo de caracteres de un campo
+        de texto.
+        selected -> Equicvale a checked en los select, sirve para establecer una opcion 
+        por defecto.
+        disabled -> Desactiva el campo, no se podra escribir en el outofocus.
+        autofocus -> Para poner el foco por defecto al cargar el formulario.
+        -->
+        <form>
+            <label for="texto">Nombre:</label>
+            <input type="text" placeholder="Introduce tu nombre" name="" id="texto" required>
+            <input type="text" value="Hola" readonly>
+            <input type="text" value="Hola" readonly disabled>
+            <select name="numbers">
+                <option value="one">One</option>
+                <option value="Two" selected>Two</option>
+            </select>
+            <input type="number" min="5" max="10">
+            <input type="text" minlength="5" maxlength="11" required autofocus>
+            <input type="submit">
+        </form> 
+</body>
+</html>
